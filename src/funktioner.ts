@@ -89,6 +89,7 @@ export function upprepa(text: string, antal: number): string {
 //    Använd formateraPris från uppgift 1.
 export function kvittorad(namn: string, antal: number, pris: number): string {
     // TODO
+    return `${antal} x ${namn}: ${formateraPris(antal * pris)}`
 }
 
 // 10. Pilfunktioner. Skriv dem själv med const och =>.
